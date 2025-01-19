@@ -1,0 +1,2 @@
+packages:
+  - 'package/*'  # 你可以根据自己的 Monorepo 结构调整路径

@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "B":["../B/src"],
+        },
+        "target":"esnext",
+        "module":"esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "references": [
+        {
+            "path": "../B"
+        }
+    ],
+    "paths":{
+        "@/*": "./src/*",
+        "@sdk/*": "../sdk/src/*",
+    }
+}

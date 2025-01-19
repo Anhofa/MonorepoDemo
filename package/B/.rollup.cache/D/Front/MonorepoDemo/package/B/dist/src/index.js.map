@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/index.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,KAAK;IACjB,OAAO,CAAC,GAAG,CAAC,qBAAqB,CAAC,CAAC;AACrC,CAAC","sourcesContent":["export function hello() {\r\n    console.log('Function from SDK B');\r\n  }"]}

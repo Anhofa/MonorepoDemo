@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "B/*": ["packages/B/src/*"]  // 假设 B 项目在 packages/B/src 下
+      }
+    }
+  }
+  
